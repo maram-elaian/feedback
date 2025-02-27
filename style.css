@@ -104,7 +104,8 @@ padding: 1%;
 background-color: hsl(300, 43%, 22%); 
 color: hsl(300, 24%, 96%);
 height: 60%; 
-border-radius: 10px; 
+border-radius: 10px;
+
 }
 
 .feed2{
@@ -142,4 +143,38 @@ border-radius: 10px;
  margin-bottom: 5%;
  justify-content: space-around;
     
+}
+@media (max-width: 768px) {
+    body{
+        height:max-content ;
+    }
+    .hero{
+        width: 100%;
+        flex-direction: column;
+       min-height: max-content;
+        margin-bottom: 5%;
+    }
+    .feedback{
+        width: 100%;
+        flex-direction: column;
+        gap: 10%;  
+        min-height: max-content; 
+        margin-bottom: 1%;
+    }
+    .feed1,.feed2,.feed3{
+        width: 90%;
+        height: 40vh;
+        margin-top: 0%;
+        margin: auto;
+    }
+    
+    .cards,.intro{
+        width: 100%;
+    }
+    .card1,.card2,.card3{
+        width: 90%;
+        height: 15vh;
+        margin-left: 11.875px;
+    }
+   
 }
