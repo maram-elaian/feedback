@@ -175,6 +175,10 @@ border-radius: 10px;
         width: 90%;
         height: 15vh;
         margin-left: 11.875px;
+      
     }
+  p{
+    line-height: 2;
+  }
    
 }
